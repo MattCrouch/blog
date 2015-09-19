@@ -1,0 +1,12 @@
+# Site settings
+title: Smart++;
+description: > # this means to ignore newlines until "baseurl:"
+  Development Blog for me, Matt Crouch.
+  Keeping a track of important bits and bytes that might be useful one day. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "/blog"
+twitter_username: stupler
+github_username:  MattCrouch
+
+# Build settings
+markdown: kramdown
