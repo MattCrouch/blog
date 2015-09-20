@@ -1,3 +1,7 @@
 ---
+layout: post
+title:  "Test post!"
+date:   2015-09-20 17:34:00
+
 ---
-**This is another test post**
+This is a test post, isn't it wonderful.
