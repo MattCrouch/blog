@@ -1,0 +1,98 @@
+h1, h2, h3 {
+	font-family: $header-font;
+	padding: 1rem 0;
+
+	a {
+		border-bottom: none;
+	}
+}
+
+h1 {
+	font-size: 4rem;
+	margin: 0;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	line-height: $base-size * 1.75;
+	margin-bottom: 1rem;
+}
+
+p:last-child {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px solid black;
+	color: inherit;
+}
+
+a:hover {
+	border-bottom-width: 2px;
+}
+
+hr {
+	border: 0;
+	border-bottom:2px rgba($main-color, 0.5) solid;
+}
+
+ul, ol {
+	list-style: initial;
+	margin-left: 2rem;
+	margin-bottom: 1rem;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+code {
+	font-family: monospace;
+}
+
+blockquote {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: rgba(0,0,0,0.2);
+}
+
+pre {
+	margin-bottom: 1rem;
+}
+
+dl {
+	margin-bottom: 1rem;
+}
+
+dt {
+	font-weight: bold;
+
+}
+
+dd {
+	margin-bottom: 0.5rem;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+	border: 2px solid black;
+}
+
+th, td {
+	padding: 1em;
+}
