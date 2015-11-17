@@ -16,6 +16,7 @@
 html {
 	font-family: $base-font; //TODO: Make sure Open Sans and League Spartan are hosted somewhere accessible and linked in
 	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
 	font-size: $base-size;
 }
 
@@ -142,6 +143,7 @@ main {
 			display: block;
 			margin: 0 auto;
 			max-height: 20rem;
+			max-width: 100%;
 		}
 	}
 }
@@ -157,6 +159,44 @@ footer {
 		li {
 			display: inline-block;
 			margin: 0 1rem;
+		}
+	}
+}
+
+@media (max-width: 700px) {
+	.post header {
+		background-attachment: scroll;
+	}
+}
+
+@media (max-width: 500px) {
+	header, main, footer {
+		padding: 1rem 0.5rem;
+
+		article {
+			// margin: 2rem;
+
+			&:first-child {
+				margin-top: 1rem;
+			}
+		}
+	}
+
+	.home header {
+		img {
+			display: none;
+		}
+	}
+
+	.post header .tags {
+		li:nth-child(n+4) {
+			display: none;
+		}
+	}
+
+	footer {
+		ul li {
+			margin: 0.5rem;
 		}
 	}
 }
