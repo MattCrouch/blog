@@ -13,3 +13,4 @@ paginate: 5
 
 # Build settings
 markdown: kramdown
+gems: [jekyll-paginate]
