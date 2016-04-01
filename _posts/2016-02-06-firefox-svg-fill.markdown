@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Firefox and SVG Fill with CSS"
-date:   2016-02-06 13:00:00
-tags:	[Firefox, SVG, CSS, Fill]
+layout: 	post
+title:  	"Firefox and SVG Fill with CSS"
+date:   	2016-02-06 13:00:00
+tags:		[Firefox, SVG, CSS, Fill]
+image:		2016-02-06-firefox-svg-fill/svg-starburst-normal.gif
 ---
 
 As you may have noticed, my site's gone through a bit of a redesign as of late. My portfolio site in particular shows a couple of little ideas I had.

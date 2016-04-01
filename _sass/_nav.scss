@@ -1,0 +1,30 @@
+nav {
+	font-family: $header-font;
+	font-size: $nav-font-size;
+	padding: 0.5rem 1rem;
+
+	a {
+		border-bottom: none;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+
+		li {
+			display: inline-block;
+		}
+	}
+
+	.title {
+		font-size: $nav-header-font-size;
+	}
+}
+
+html.flexbox nav ul {
+	display: flex;
+
+	flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

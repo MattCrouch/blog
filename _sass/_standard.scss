@@ -1,0 +1,21 @@
+.home .posts {
+	overflow: hidden;
+}
+
+.standard {
+	display: inline-block;
+	width: (100% / 3) - 2%;
+	float: left;
+	background-color: lighten($background-color, 10%);
+	padding: 1%;
+	margin: 1%;
+
+	&:nth-child(3n+1) {
+		clear: left;
+	}
+
+	h1 {
+		font-size: 2rem;
+		padding-top: 0;
+	}
+}

@@ -1,0 +1,55 @@
+article.featured, .post header {
+	background: $background-color no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	text-align: center;
+
+	-webkit-transition: background-position $transition-length;
+    transition: background-position $transition-length;
+
+	.dim {
+		height: 100%;
+		padding: 3rem 1rem;
+
+		-webkit-transition: background-color $transition-length;
+    	transition: background-color $transition-length;
+
+		&.has-background {
+			background-color: rgba(0,0,0,0.5);
+			color: $background-color;
+		}
+	}
+
+	&.featured:hover {
+		background-position: 50% 52.5%;
+
+		.dim.has-background {
+			background-color: rgba(0,0,0,0.6);
+		}
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	.meta {
+		margin: 0.5rem 0;
+	}
+
+	.tags {
+		margin: 1rem 0;
+		font-size: smaller;
+
+		li {
+			display: inline-block;
+			margin: 0.25rem;
+			padding: 0.25rem 0.5rem; 
+			text-transform: lowercase;
+
+			background-color: rgba(0,0,0,0.5);
+		}
+	}
+}

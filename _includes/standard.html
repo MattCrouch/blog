@@ -1,0 +1,11 @@
+<article class="standard">
+	<h1>
+		<a href="{{ post.url | prepend: site.baseurl }}">
+			{{ post.title }}
+		</a>
+	</h1>
+
+	{% if include.post.excerpt %}
+		<p class="excerpt">{{ include.post.excerpt | strip_html }}</p>
+	{% endif %}
+</article>

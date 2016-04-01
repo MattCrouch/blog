@@ -3,13 +3,6 @@
 ---
 @charset "utf-8";
 
-// Our variables
-$base-font: "Open Sans", "Helvetica", "Arial", sans-serif;
-$header-font: "League Spartan", "Helvetica", "Arial", sans-serif;
-$base-size: 18px;
-$main-color: rgb(67, 94, 105);
-$heading-text-color: #FFFFFF;
-
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
@@ -25,7 +18,14 @@ $heading-text-color: #FFFFFF;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+	"variables",
 	"meyer-reset",
 	"elements",
-    "layout"
+    "layout",
+    "nav",
+    "featured",
+    "standard",
+    "pagination",
+    "post",
+    "footer"
 ;
