@@ -12,6 +12,7 @@ tags:
 - theming
 - tumblr
 ---
+
 Building themes for Tumblr can get quite complicated. What's not so great is that there is no way to get Tumblr locally to easily develop the theme you need. Tumblr has no stylesheet support, so aside from adding plain CSS code in the same HTML file or uploading a processed CSS file each time, you're a bit stuffed.
 
 Thankfully by using a combination of your everyday local development tools, Tumblr's own Theme Editor feature and Dropbox, you can make it a little bit easier.
@@ -37,7 +38,7 @@ Then <code>compass watch</code> that directory as usual, so any changes in your 
 Linking CSS to Tumblr
 ---------------------
 
-![Dropbox Public URL]({{ site.baseurl }}/assets/2015-02-15-introduction-to-developing-tumblr-themes/dropbox-public-url.png "Dropbox Public URL")
+[![Dropbox Public URL]({{ site.baseurl }}/assets/2015-02-15-introduction-to-developing-tumblr-themes/dropbox-public-url.png)]({{ site.baseurl }}/assets/2015-02-15-introduction-to-developing-tumblr-themes/dropbox-public-url.png)
 
 Once the parsed CSS file is sitting in your local Dropbox folder and has finished its initial sync, find it and right click and copy the public link for the file (this can also be found on dropbox.com by clicking the Share button to the right of the file).
 
@@ -53,7 +54,7 @@ From here you can just use this URL to include the CSS like you would any other 
 <link rel="stylesheet" type="text/css" href="https://www.dropbox.com/s/p3964xt3efdd8ha/tumblr.css?dl=1" />
 {% endhighlight %}
 
-![Tumblr Asset Upload]({{ site.baseurl }}/assets/2015-02-15-introduction-to-developing-tumblr-themes/tumblr-asset-upload.png "Tumblr Asset Upload")
+[![Tumblr Asset Upload]({{ site.baseurl }}/assets/2015-02-15-introduction-to-developing-tumblr-themes/tumblr-asset-upload.png)]({{ site.baseurl }}/assets/2015-02-15-introduction-to-developing-tumblr-themes/tumblr-asset-upload.png)
 
 When you've finished developing your theme, make sure the CSS file from Dropbox gets uploaded using Tumblr's asset uploader and link to that version. That way should anything happen to the file or your Dropbox account in the future your theme won't suffer.
 
