@@ -5,17 +5,54 @@
 .standard {
 	display: inline-block;
 	width: (100% / 3) - 2%;
-	float: left;
 	background-color: lighten($background-color, 10%);
-	padding: 1%;
 	margin: 1%;
+	cursor: pointer;
 
-	&:nth-child(3n+1) {
-		clear: left;
+	> div {
+		padding: 1rem;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	.meta {
+		margin: 0.5rem 0;
+	}
+
+	img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
 	}
 
 	h1 {
 		font-size: 2rem;
 		padding-top: 0;
 	}
+
+	&:hover {
+		// color: lighten($text-color, 10%);
+
+		h1 a {
+			text-decoration: underline;
+		}
+	}
+}
+
+html.no-flexbox .standard {
+	float: left;
+
+	&:nth-child(3n+1) {
+		clear: left;
+	}
+}
+
+html.flexbox .posts {
+	display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    align-items: stretch;
+
 }

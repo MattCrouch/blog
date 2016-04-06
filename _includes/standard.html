@@ -1,11 +1,20 @@
 <article class="standard">
-	<h1>
-		<a href="{{ post.url | prepend: site.baseurl }}">
-			{{ post.title }}
-		</a>
-	</h1>
-
-	{% if include.post.excerpt %}
-		<p class="excerpt">{{ include.post.excerpt | strip_html }}</p>
+	{% if include.post.image %}
+		<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="" />
 	{% endif %}
+	<div>
+		<h1>
+			<a href="{{ post.url | prepend: site.baseurl }}">
+				{{ post.title }}
+			</a>
+		</h1>
+
+		{% if include.post.excerpt %}
+			<p class="excerpt">{{ include.post.excerpt | strip_html }}</p>
+		{% endif %}
+
+		<ul class="meta">
+			<li>{{ include.post.date | date_to_long_string }}</li>
+		</ul>
+	</div>
 </article>
