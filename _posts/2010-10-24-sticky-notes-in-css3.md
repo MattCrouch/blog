@@ -1,0 +1,16 @@
+---
+layout: post
+title: Sticky Notes in CSS3
+date: 2010-10-24 23:40:11
+tags:
+- CSS3
+- HTML5
+- Post-It
+---
+<p>I've been inspired by <a href="http://rawkes.com/blog/2010/10/23/rawkets-development-update-1">a third year's project</a> to get off my behind and start learning me some new standards. I'd known about HTML5 for a long time and have long been sceptical about it. What, with all the hoo-hah of HTML5 vs. Flash, and being an avid Flash fan, I didn't really want to concede at first glance. Now there's a future where they can work together, I guess it's a push in the right direction.</p>
+<p>I like knowing what I'm doing. Heck, it took me a while to migrate from ActionScript 2 to 3, mainly because I was comfortable knowing what to do. But having done that, I know what used to take an age in an old language is a line of code in the new. So I best start learning some HTML5, then.</p>
+<p>I took a quick glance over some of the <a href="http://dev.w3.org/html5/spec/Overview.html">documentation</a> for HTML5 and thought… well, like anyone would at the sight of a really long, text heavy document, &quot;bugger it something must be happening on Facebook&quot;. But I took the sensible approach and took a look around some tutorials online.</p>
+<p>One in particular caught my eye. <a href="http://net.tutsplus.com/articles/news/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5/">Create a sticky note effect in 5 easy steps</a>. I like sticky notes and I like the word 'easy'. Perfect. So I followed it.</p>
+<p><a href="http://mattcrouch.net/experiments/post-it/post-it.html"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px; padding-top: 0px" title="Sticky notes" border="0" alt="Sticky notes" src="{{ site.baseurl }}/assets/Sticky-notes.png" width="333" height="182" /></a></p>
+<p>The results came out as expected. When I first saw what the outcome would be (before giving building it a go) I was firmly in the mindset of &quot;Yeah, okay, I'll believe it when I see it&quot; and a few lines of code later there it was. It was mainly CSS3 rather than HTML5, but it was a start.</p>
+<p>It's the first addition to my 'Experiments' area I'm sure I mentioned briefly a few posts ago. There'll be a few fleeting little ideas popping up around in that folder which will be documented here. Of course, I would walk you through what I've done so far, but the linked tutorial does that pretty well. I'll play around with some code for a bit and see what I can come up with. See you on the flipside!</p>
