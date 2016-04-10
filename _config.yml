@@ -13,5 +13,5 @@ paginate: 9
 
 # Build settings
 markdown: kramdown
-highlighter: true
+highlighter: rouge
 gems: [jekyll-paginate]
