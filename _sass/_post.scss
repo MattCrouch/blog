@@ -5,11 +5,18 @@
 
 	main {
 		margin: 1rem 0;
+		
 		img {
 			display: block;
-			margin: 0 auto;
+			margin: 1rem auto;
 			max-height: 20rem;
 			max-width: 100%;
+		}
+
+		iframe {
+			//Vine, etc.
+			display: block;
+			margin: 0 auto;
 		}
 	}
 }
