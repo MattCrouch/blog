@@ -1,15 +1,21 @@
-article.featured, .post header {
+.featured, .post .header {
+	display: block;
 	background: $background-color no-repeat 50% 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	cursor: pointer;
 
 	text-align: center;
 
 	-webkit-transition: background-position $transition-length;
     transition: background-position $transition-length;
+
+	border-bottom: none;
+	
+    &:hover {
+		border-bottom: none;
+	}
 
 	.dim {
 		height: 100%;
@@ -24,8 +30,12 @@ article.featured, .post header {
 		}
 	}
 
-	&.featured:hover {
+	&:hover {
 		background-position: 50% 52.5%;
+
+		h1 {
+			text-decoration: underline;
+		}
 
 		.dim.has-background {
 			background-color: rgba(0,0,0,0.6);
