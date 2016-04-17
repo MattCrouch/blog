@@ -44,6 +44,10 @@
 			text-decoration: underline;
 		}
 	}
+
+	@media (max-width: 800px) {
+		width: 100%;
+	}
 }
 
 html.no-flexbox .standard {
@@ -59,5 +63,4 @@ html.flexbox .posts {
     flex-wrap: wrap;
     // justify-content: space-between;
     align-items: stretch;
-
 }

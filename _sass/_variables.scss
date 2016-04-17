@@ -41,21 +41,3 @@ $nav-font-size: 1rem;
 
 $header-font: "AdamCG Pro", "Helvetica", "Arial", sans-serif;
 $base-font: "Lato", "Helvetica", "Arial", sans-serif;
-
-$breakpoint-large: 900px;
-$breakpoint-medium: 750px;
-$breakpoint-small: 550px;
-
-$base-size-large: 18px;
-
-$header-font-size-medium: 2.5rem;
-$header-secondary-font-size-medium: $header-font-size-medium / 2;
-$header-border-size-medium: $header-font-size-medium / 3;
-$header-padding-medium: 2 * $header-font-size-medium;
-$header-height-medium: (2 * $header-padding-medium) + $header-font-size-medium;
-
-$header-font-size-small: 1.5rem;
-$header-secondary-font-size-small: $header-font-size-small / 2;
-$header-border-size-small: $header-font-size-small / 3;
-$header-padding-small: 1.5 * $header-font-size-small;
-$header-height-small: (2 * $header-padding-small) + $header-font-size-small;

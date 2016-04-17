@@ -19,12 +19,38 @@ nav {
 	.title {
 		font-size: $nav-header-font-size;
 	}
+
+	@media (max-width: 450px) {
+		.title {
+			font-size: $nav-header-font-size / 1.5;
+		}
+
+		.home {
+			display: none;
+		}
+	}
 }
 
-html.flexbox nav ul {
+html nav ul {
 	display: flex;
 
 	flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 450px) {
+    	justify-content: center;
+    }
+}
+
+html.no-flexbox nav ul {
+	.title {
+		float: left;
+	}
+
+	.home {
+		float: right;
+	}
+
+	overflow: hidden;
 }
