@@ -37,6 +37,8 @@ But what if you're already well versed in the tech industry? [Go along][Codebar 
 
 [Codebar Logo]:{{ site.baseurl }}/assets/2016-04-15-on-codebar/codebar-logo.png
 
-[Codebar]:http://codebar.io 
+
+[Codebar]:http://codebar.io
 [Bournemouth Codebar]:https://codebar.io/bournemouth
 [Codebar Events]:https://codebar.io/events
+[Codebar Tutorials]:https://tutorials.codebar.io
