@@ -15,7 +15,8 @@ tags:
 In a [previous post][Photoshop to Illustrator to SVG], I talked about how I was making a little character in SVG for Cinolla's 404 page. The page needed a bit more of a friendly face to it.
 
 But once you've got the SVG, how do you put that to use on a web page?
-## Embedding an SVG in a page
+
+## Embedding an SVG in a page
 
 You know how to add an image to a page, right? It's pretty much the same, if you just have your SVG to dump in there.
 
@@ -35,7 +36,8 @@ You know how to add an image to a page, right? It's pretty much the same, if you
 Using this method, you're able to display code to people with browsers that don't support .svg files. Generally that's going to be a static version of that image as a PNG or something. Or just a "Sorry, lol. Can't show you this.' message.
 
 Then you can just style it as you would a standard image. It should scale like an image, too. Although of course as an SVG, it's going to scale nicely with it's vectors rather than the blocky horribleness of old.
-## Altering the image with CSS
+
+## Altering the image with CSS
 
 If you've got this SVG, but you want to change it somehow, that's fine. With standard image icons, for example. A change of colour on hover is going to require either another file, or at least including another coloured version of that file on your system. SVGs can just be styled like a web page, which is certainly handy for icons, but great if you need to show something slightly different if the image gets smaller, for example.
 
@@ -52,7 +54,7 @@ The other option to use with the way we're embedding the image above is to inclu
 {% endhighlight %}
 
 This way you're keeping everything SVG separate, which I guess is a good thing, right? This file is going to act the same way as any other CSS file, with most of the properties to boot. They're not <em>all</em> available to SVG, but they are mostly. The ones you can used are [listed on the W3 site][SVG Styling Properties] should you get stuck.
-## Animating an SVG
+## Animating an SVG
 
 You guessed it, you can animate SVGs pretty much the same as DOM elements generally. For a intrinsic guide to CSS3 Animation, check out the [document over at MDN][Using CSS Animations] for a crash course in that. But animating an SVG is the same process.
 
