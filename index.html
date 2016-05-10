@@ -4,24 +4,15 @@ title: Home
 ---
 
 {% if paginator.page == 1 %}
-	{% assign featured = true %}
-	{% for post in paginator.posts %}
-		{% if featured == true %}
-			{% include featured.html post=post %}
-			{% assign featured = false %}
-			<div class="posts">
-		{% else %}
-			{% include standard.html post=post %}
-		{% endif %}
-	{% endfor %}
-	</div>
-{% else %}
-	<div class="posts">
-		{% for post in paginator.posts %}
-			{% include standard.html post=post %}
-		{% endfor %}
-	</div>
+	{% assign featuredPost = site.posts.first %}
+	{% include featured.html post=featuredPost %}
 {% endif %}
+
+<div class="posts">
+	{% for post in paginator.posts %}
+		{% include standard.html post=post %}
+	{% endfor %}
+</div>
 
 {% if paginator.total_pages > 1 %}
 	<div class="pagination">
