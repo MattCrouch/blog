@@ -17,3 +17,5 @@ highlighter: rouge
 gems: [jekyll-paginate, jekyll-gist]
 
 future: true
+
+permalink: /:year/:month/:title/
