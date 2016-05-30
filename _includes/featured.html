@@ -1,4 +1,4 @@
-<a href="{{ post.url | prepend: site.baseurl }}" class="featured" {% if include.post.image %} style="background-image: url({{ site.baseurl }}/assets/{{ include.post.image }})" {% endif %}>
+<a href="{{ include.post.url | prepend: site.baseurl }}" class="featured" {% if include.post.image %} style="background-image: url({{ site.baseurl }}/assets/{{ include.post.image }})" {% endif %}>
 	<article>
 		<div class="dim {% if include.post.image %}has-background{% endif %}">
 			<h1>{{include.post.title}}</h1>
