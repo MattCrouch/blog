@@ -42,7 +42,7 @@ var CookieAllow = (function() {
 	};
 
 	var setCookie = function(result) {
-		// document.cookie = cookieName + "=" + (result ? 1 : 0) + "; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/";
+		document.cookie = cookieName + "=" + (result ? 1 : 0) + "; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/";
 	};
 
 	var registerGoogleAnalytics = function() {
