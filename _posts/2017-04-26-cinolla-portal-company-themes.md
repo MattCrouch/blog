@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Developing company themes for Cinolla's new React-Powered Portal
-date: 2017-05-26 12:00:00
-image: 2017-05-26-cinolla-portal-company-themes/theme-result.png
+date: 2017-04-26 12:00:00
+image: 2017-04-26-cinolla-portal-company-themes/theme-result.png
 tags:
 - JavaScript
 - React
@@ -111,9 +111,9 @@ Theme files aren't something we would generate on a regular basis, so this can b
 
 It's far from elegant, but it works. It's a shame I couldn't work it into the Webpack flow but maybe that's one for the future.
 
-[Theme Files]:{{ site.baseurl }}/assets/2017-05-26-cinolla-portal-company-themes/theme-files.png
-[Theme Result]:{{ site.baseurl }}/assets/2017-05-26-cinolla-portal-company-themes/theme-files.png
-[Context Values]:{{ site.baseurl }}/assets/2017-05-26-cinolla-portal-company-themes/context-values.png
+[Theme Files]:{{ site.baseurl }}/assets/2017-04-26-cinolla-portal-company-themes/theme-files.png
+[Theme Result]:{{ site.baseurl }}/assets/2017-04-26-cinolla-portal-company-themes/theme-files.png
+[Context Values]:{{ site.baseurl }}/assets/2017-04-26-cinolla-portal-company-themes/context-values.png
 
 [Cinolla]:http://www.cinolla.com
 [CSS Modules]:https://github.com/css-modules/css-modules
