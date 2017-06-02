@@ -23,7 +23,7 @@ There's also extensive use of [CSS Grid][CSS Grid] behind the scenes, which make
 
 A static version can be found on my [GitHub page][Tutorial Demo] if you want to see the finished article (so to speak). The data isn't going to change as there's no server generating it, but just pretend it does...
 
-[Web Designer]:https://www.myfavouritemagazines.co.uk/web-designer-print-back-issues/web-designer-issue-261/
+[Web Designer]:https://www.myfavouritemagazines.co.uk/web-designer-print-back-issues/web-designer-issue-262/
 [Next.js Tutorial]:https://mattcrouch.github.io/blog/2017/03/react-next-js-tutorial/
 [CSS Grid]:https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 [Tutorial Demo]:http://mattcrouch.github.io/reactdashboard/
