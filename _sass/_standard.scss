@@ -3,8 +3,12 @@
 	margin-bottom: $base-size * 2;
 	border-bottom: none;
 	
-  &:hover {
+  &:hover, &:focus {
 		border-bottom: none;
+	}
+
+	&:hover article, &:focus article {
+		box-shadow: make-shadow(15);
 	}
 }
 
@@ -42,7 +46,7 @@
 		padding-top: 0;
 	}
 
-	&:hover h1 {
+	&:hover h1, &:focus h1 {
 		text-decoration: underline;
 	}
 }

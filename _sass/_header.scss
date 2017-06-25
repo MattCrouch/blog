@@ -13,8 +13,17 @@
 
 	border-bottom: none;
 	
-  &:hover {
+  &:hover, &:focus {
 		border-bottom: none;
+		background-position: 50% 52.5%;
+
+		h1 {
+			text-decoration: underline;
+		}
+
+		.dim.has-background {
+			background-color: rgba(0,0,0,0.6);
+		}
 	}
 
 	.dim {
@@ -30,18 +39,6 @@
 		}
 	}
 
-	&:hover {
-		background-position: 50% 52.5%;
-
-		h1 {
-			text-decoration: underline;
-		}
-
-		.dim.has-background {
-			background-color: rgba(0,0,0,0.6);
-		}
-	}
-
 	.title {
 		background-color: $background-color;
 		width: 60%;
@@ -49,6 +46,10 @@
 		@include box-drop(5);
 		background-color: lighten($background-color, 10%);
 		padding: 0 1rem;
+	}
+
+	&:hover .title, &:focus .title {
+		box-shadow: make-shadow(15);
 	}
 
 	ul {
