@@ -3,7 +3,7 @@ h1, h2, h3 {
 	padding: 1rem 0;
 
 	overflow-wrap: break-word;
-  	word-wrap: break-word;
+  word-wrap: break-word;
   	
 	a {
 		border-bottom: none;
@@ -11,16 +11,16 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 2.5rem;
 	margin: 0;
 }
 
 h2 {
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 p {
@@ -77,6 +77,13 @@ pre {
 	overflow-y: hidden;
 }
 
+figure, div.highlighter-rouge {
+	@include box-drop(2);
+	background-color: lighten($background-color, 10%);
+	margin-bottom: $base-size + 4px;
+	padding: 1rem;
+}
+
 dl {
 	margin-bottom: 1rem;
 }
@@ -104,14 +111,14 @@ th, td {
 
 @media (max-width: 800px) {
 	h1 {
-		font-size: 3rem;
+		font-size: 1.75rem;
 	}
 
 	h2 {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 	}
 
 	h3 {
-		font-size: 1.75rem;
+		font-size: 1.25rem;
 	}
 }
