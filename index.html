@@ -3,12 +3,7 @@ layout: default
 title: Matt Crouch's Blog
 ---
 
-{% if paginator.page == 1 %}
-	{% assign featuredPost = site.posts.first %}
-	{% include featured.html post=featuredPost %}
-{% endif %}
-
-<div class="posts">
+<div class="posts wrapper">
 	{% for post in paginator.posts %}
 		{% include standard.html post=post %}
 	{% endfor %}

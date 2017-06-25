@@ -1,9 +1,11 @@
 <a href="{{ post.url | prepend: site.baseurl }}" class="standard">
 	<article>
 		{% if include.post.image %}
-			<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="" />
+			<div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }})">
+				&nbsp;
+			</div>
 		{% endif %}
-		<div>
+		<div class="title">
 			<h1>{{ post.title }}</h1>
 
 			{% if include.post.excerpt %}
