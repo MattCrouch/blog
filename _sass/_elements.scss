@@ -11,16 +11,16 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 2.5rem;
 	margin: 0;
 }
 
 h2 {
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 p {
@@ -104,14 +104,14 @@ th, td {
 
 @media (max-width: 800px) {
 	h1 {
-		font-size: 3rem;
+		font-size: 1.75rem;
 	}
 
 	h2 {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 	}
 
 	h3 {
-		font-size: 1.75rem;
+		font-size: 1.25rem;
 	}
 }

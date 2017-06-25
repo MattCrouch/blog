@@ -1,0 +1,14 @@
+@function make-shadow($length) {
+  $shadow: 0 0 $text-color;
+  
+  @for $i from 1 through $length {
+    $shadow: #{$shadow}, #{$i}px #{$i}px $text-color;
+  }
+
+  @return $shadow;
+}
+
+@mixin box-drop($borderWidth) {
+  border: ($borderWidth * 1px) solid $text-color;
+  box-shadow: make-shadow($borderWidth * 2);
+}
