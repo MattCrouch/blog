@@ -3,7 +3,7 @@ h1, h2, h3 {
 	padding: 1rem 0;
 
 	overflow-wrap: break-word;
-  	word-wrap: break-word;
+  word-wrap: break-word;
   	
 	a {
 		border-bottom: none;
@@ -75,6 +75,13 @@ pre {
 	margin-bottom: 1rem;
 	overflow-x: scroll;
 	overflow-y: hidden;
+}
+
+figure, div.highlighter-rouge {
+	@include box-drop(2);
+	background-color: lighten($background-color, 10%);
+	margin-bottom: $base-size + 4px;
+	padding: 1rem;
 }
 
 dl {

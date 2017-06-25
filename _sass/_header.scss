@@ -61,15 +61,15 @@
 
 	.tags {
 		margin: 1rem 0;
-		font-size: smaller;
+		font-size: 0.75rem;
 
 		li {
 			display: inline-block;
-			margin: 0.25rem;
-			padding: 0.25rem 0.5rem; 
+			padding: 0.5rem 0.75rem;
+			margin: 0.125rem;
 			text-transform: lowercase;
-
-			background-color: rgba(0,0,0,0.5);
+			background-color: $color-2;
+			border-radius: 1rem;
 		}
 	}
 
