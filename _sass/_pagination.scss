@@ -1,15 +1,26 @@
 .pagination {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	margin: 1rem 0;
 	text-align: center;
 
-	ul {
-		list-style: none;
-		margin-bottom: 0;
-		margin-left: 0;
+	.previous, .next {
+		padding: 0.5rem 0.75rem;
+		margin: 0.125rem;
+		border-radius: 1rem;
+	}
 
-		li {
-			display: inline-block;
-			margin: 0 1rem;
+	a.previous, a.next {
+		background-color: $color-2;
+		border-bottom: 0;
+
+		&:hover {
+			background-color: lighten($color-2, 10%);	
 		}
+	}
+
+	span.previous, span.next {
+		background-color: desaturate($color-2, 100%);
 	}
 }

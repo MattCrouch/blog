@@ -10,6 +10,7 @@ title: Matt Crouch's Blog
 </div>
 
 {% if paginator.total_pages > 1 %}
+<div class="wrapper">
 	<div class="pagination">
 	  {% if paginator.previous_page %}
 	    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
@@ -20,7 +21,8 @@ title: Matt Crouch's Blog
 	  {% if paginator.next_page %}
 	    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a>
 	  {% else %}
-	    <span class="next ">Next</span>
+	    <span class="next">Next</span>
 	  {% endif %}
 	</div>
+</div>
 {% endif %}
