@@ -40,9 +40,9 @@
 	h1 {
 		font-size: 2rem;
 		padding-top: 0;
+	}
 
-		&:hover {
-			text-decoration: underline;
-		}
+	&:hover h1 {
+		text-decoration: underline;
 	}
 }
