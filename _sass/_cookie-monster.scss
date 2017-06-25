@@ -5,28 +5,29 @@
 	bottom: 0;
 	padding: 0.5rem 1.5rem;
 	width: 100%;
-	background-color: rgba($background-color, 0.75);
+	background-color: lighten($background-color, 10%);
 
 	animation-duration: 1s;
-  	animation-name: cookie-slidein;
+  animation-name: cookie-slidein;
 
 	button {
 		border: none;
-	    margin: 0.25rem;
-	    padding: 0.25rem 0.5rem;
-	    background-color: rgba(0, 0, 0, 0.5);
-	    font-family: inherit;
-	    font-size: inherit;
-	    cursor: pointer;
+		padding: 0.5rem 0.75rem;
+		margin: 0.125rem;
+		border-radius: 1rem;
+		background-color: $color-2;
+		font-family: inherit;
+		font-size: inherit;
+		cursor: pointer;
 
-	    &:hover, &:focus {
-	    	background-color: rgba(0, 0, 0, 0.75);
-	    }
+		&:hover, &:focus {
+			background-color: lighten($color-2, 10%);
+		}
 
-	    @media (max-width: 450px) {
-			display: block;
-			width: 100%;
-	    }
+		@media (max-width: 450px) {
+		display: block;
+		width: 100%;
+		}
 	}
 
 	#eu-cookie-dismiss {
