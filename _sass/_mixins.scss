@@ -1,8 +1,10 @@
 @function make-shadow($length) {
   $shadow: 0 0 $text-color;
+
+  $subpixelLength: $length * 2;
   
-  @for $i from 1 through $length {
-    $shadow: #{$shadow}, #{$i}px #{$i}px $text-color;
+  @for $i from 1 through $subpixelLength {
+    $shadow: #{$shadow}, #{$i / 2}px #{$i / 2}px $text-color;
   }
 
   @return $shadow;
