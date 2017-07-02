@@ -3,6 +3,7 @@ layout: post
 title: Delivering First-Class JavaScript
 date: 2017-02-04 12:00:00
 image: 2017-02-04-first-class-js/first-class-js.jpg
+thumbnail: 2017-02-04-first-class-js/first-class-js-sm.jpg
 tags:
 - JavaScript
 - Webpack

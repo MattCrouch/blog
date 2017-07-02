@@ -3,6 +3,7 @@ layout: post
 title: Barcamp Southampton 2016
 date: 2016-11-13 16:00:00
 image: 2016-11-13-barcamp-southampton-2016/barcamp-name-sticker.jpg
+thumbnail: 2016-11-13-barcamp-southampton-2016/barcamp-name-sticker-sm.jpg
 tags:	[barcamp, southampton, tech, presentations, unconference, 2016]
 ---
 

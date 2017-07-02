@@ -3,6 +3,7 @@ layout: post
 title: Build a speedy Universal React site with Next.js
 date: 2017-03-05 12:00:00
 image: 2017-03-05-react-next-js-tutorial/react-next-js-tutorial.jpg
+thumbnail: 2017-03-05-react-next-js-tutorial/react-next-js-tutorial-sm.jpg
 tags:
 - JavaScript
 - React

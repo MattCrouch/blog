@@ -3,6 +3,7 @@ layout: post
 title: Developing company themes for Cinolla's new React-Powered Portal
 date: 2017-04-26 12:00:00
 image: 2017-04-26-cinolla-portal-company-themes/theme-result.png
+thumbnail: 2017-04-26-cinolla-portal-company-themes/theme-result-sm.png
 tags:
 - JavaScript
 - React

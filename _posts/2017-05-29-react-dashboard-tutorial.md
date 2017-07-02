@@ -3,6 +3,7 @@ layout: post
 title: Build a React-powered Dashboard Application
 date: 2017-05-29 12:00:00
 image: 2017-05-29-react-dashboard-tutorial/react-dashboard-tutorial.jpg
+thumbnail: 2017-05-29-react-dashboard-tutorial/react-dashboard-tutorial-sm.jpg
 tags:
 - JavaScript
 - Tutorial

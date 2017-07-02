@@ -3,6 +3,7 @@ layout: post
 title: Custom Elements v1 and Hot 100 thoughts
 date: 2017-01-05 12:00:00
 image: 2017-01-05-custom-element-v1-hot-100/reusable-tab-module-front.jpg
+thumbnail: 2017-01-05-custom-element-v1-hot-100/reusable-tab-module-front-sm.jpg
 tags:
 - JavaScript
 - tutorial

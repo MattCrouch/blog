@@ -3,6 +3,7 @@ layout: post
 title: Future Decoded 2016
 date: 2016-11-02 18:00:00
 image: 2016-11-02-future-decoded-2016/microsoft-screen.jpg
+thumbnail: 2016-11-02-future-decoded-2016/microsoft-screen-sm.jpg
 tags:	[microsoft, future decoded, web, js, native, conference, Joseph Sirosh, Christian Heilmann, Pete Daukintis, Abe Davis]
 ---
 

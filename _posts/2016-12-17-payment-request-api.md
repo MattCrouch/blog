@@ -3,6 +3,7 @@ layout: post
 title: Quick checkouts with the Payment Request API
 date: 2016-12-17 12:00:00
 image: 2016-12-17-payment-request-api/payment-request-api.jpg
+thumbnail: 2016-12-17-payment-request-api/payment-request-api-sm.jpg
 tags:
 - JavaScript
 - tutorial

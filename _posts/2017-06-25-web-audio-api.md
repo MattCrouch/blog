@@ -3,6 +3,7 @@ layout: post
 title: Build a Theremin with the Web Audio API
 date: 2017-06-25 12:00:00
 image: 2017-06-25-web-audio-api/web-audio-api-tutorial.jpg
+thumbnail: 2017-06-25-web-audio-api/web-audio-api-tutorial-sm.jpg
 tags:
 - JavaScript
 - Tutorial

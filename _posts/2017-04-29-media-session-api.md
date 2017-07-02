@@ -3,6 +3,7 @@ layout: post
 title: Build a Podcast Application that uses the Media Session API
 date: 2017-04-29 12:00:00
 image: 2017-04-29-media-session-api/media-session-api-tutorial.jpg
+thumbnail: 2017-04-29-media-session-api/media-session-api-tutorial-sm.jpg
 tags:
 - JavaScript
 - Tutorial

@@ -1,7 +1,7 @@
 <a href="{{ post.url | prepend: site.baseurl }}" class="standard">
 	<article>
-		{% if include.post.image %}
-			<div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }})">
+		{% if include.post.thumbnail or include.post.image %}
+			<div class="image" style="background-image: url({{ site.baseurl }}/assets/{% if include.post.thumbnail %}{{ post.thumbnail }}{% else %}{{ post.image }}{% endif %})">
 				&nbsp;
 			</div>
 		{% endif %}
