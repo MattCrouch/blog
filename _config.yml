@@ -9,7 +9,7 @@ twitter_username: stupler
 github_username:  MattCrouch
 profile_picture: "http://mattcrouch.net/images/matt_crouch.png"
 
-paginate: 10
+paginate: 5
 
 # Build settings
 markdown: kramdown
