@@ -30,6 +30,7 @@
 
 	.title {
 		padding: 1rem;
+		width: 100%;
 		flex: 2;
 	}
 
@@ -44,6 +45,8 @@
 	h1 {
 		font-size: 2rem;
 		padding-top: 0;
+		overflow-wrap: break-word;
+    word-wrap: break-word;
 	}
 
 	&:hover h1, &:focus h1 {
