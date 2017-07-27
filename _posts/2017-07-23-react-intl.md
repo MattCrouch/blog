@@ -10,6 +10,7 @@ tags:
 - React
 - I18n
 - Component
+
 ---
 
 Sacré bleu! In the latest [Web Designer][Web Designer] talk the local lingo and get internationalisation into your React projects using [React-Intl][React-Intl].

@@ -11,13 +11,13 @@
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/apple-touch-icon.png" />
     
     {% if page.layout == "post" %}
-        <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.live_url }}" />
+        <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
         <meta property="fb:app_id" content="{{ site.fb_app_id }}" />        
         {% if page.image %}
-            <meta property="og:image" content="{{ site.live_url }}/assets/{{ page.image }}" /> 
+            <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/{{ page.image }}" /> 
         {% endif %}
     {% endif %}
 </head>
