@@ -16,7 +16,7 @@ paginate: 5
 # Build settings
 markdown: kramdown
 highlighter: rouge
-gems: [jekyll-paginate, jekyll-gist]
+gems: [jekyll-paginate, jekyll-gist, jekyll-sitemap]
 
 future: true
 
