@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Keeping a track of important bits and bytes that might be useful one day. 
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "/blog"
+live_url: "https://mattcrouch.github.io/blog"
 twitter_username: stupler
 github_username:  MattCrouch
 profile_picture: "http://mattcrouch.net/images/matt_crouch.png"
