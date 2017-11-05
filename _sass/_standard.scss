@@ -25,6 +25,8 @@
 
 		@media (max-width: 600px) {
 			display: none;
+			// Make sure invisible images aren't downloaded on mobile
+			background: none !important;
 		}
 	}
 
