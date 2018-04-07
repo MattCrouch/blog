@@ -2,8 +2,8 @@
 layout: post
 title: Testing React Components with Jest and Enzyme
 date: 2018-04-03 12:00:00
-image: 2018-04-03-react-testing-jest/react-testing-jest.jpg
-thumbnail: 2018-04-03-react-testing-jest/react-testing-jest-sm.jpg
+image: 2018-04-03-react-testing-jest/test-react-with-jest-and-enzyme-cover.jpg
+thumbnail: 2018-04-03-react-testing-jest/test-react-with-jest-and-enzyme-cover-sm.jpg
 tags:
 - JavaScript
 - Tutorial
@@ -29,6 +29,6 @@ In this tutorial, we make a `<Countdown />` component. It's written, but it does
 
 Unit tests are a small step on being totally sure the application works correctly. There's integration tests and end-to-end tests to deal with how everything works together, but also user testing, smoke testing and all sorts of other aspects that can (and should) be checked. This tutorial should get you in the right mindset to start checking over React components and write them in a way that's easily testable. Grab your copy now!
 
-[Unit Testing React Applications]:{{ site.baseurl }}/assets/2018-04-03-react-testing-jest/react-testing-jest.jpg
+[Unit Testing React Applications]:{{ site.baseurl }}/assets/2018-04-03-react-testing-jest/test-react-with-jest-and-enzyme.jpg
 
 [Web Designer]:https://www.myfavouritemagazines.co.uk/web-designer-print-back-issues/web-designer-issue-273/
