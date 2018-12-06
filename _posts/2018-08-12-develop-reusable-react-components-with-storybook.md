@@ -31,7 +31,7 @@ Take a look at the sort of thing we will be building over in my [Github][github]
 
 If you think it is, pick up a copy and give it a try. Hopefully the next redesign your company goes through Storybook can be introduced as part of that process and everyone can start to feel the benefits it can bring!
 
-[Develop reusable React components]:{{ site.baseurl }}/assets/2018-07-28-feedback-app-react-websocket/feedback-app-react-websockets.jpg
+[Develop reusable React components]:{{ site.baseurl }}/assets/2018-08-12-develop-reusable-react-components-with-storybook/develop-reusable-react-components.jpg
 
 [net magazine]: https://www.myfavouritemagazines.co.uk/design/net-magazine-back-issues/net-september-2018-issue-310/
 [storybook]: https://storybook.js.org/
