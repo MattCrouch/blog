@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Build a blog with Sapper and Svelte
-date: 2019-05-28 12:00:00
+date: 2019-07-25 12:00:00
 image: 2019-07-25-build-a-blog-with-sapper-and-svelte/build-a-blog-with-sapper-and-svelte-cover.jpg
 thumbnail: 2019-07-25-build-a-blog-with-sapper-and-svelte/build-a-blog-with-sapper-and-svelte-cover-sm.jpg
 tags:
