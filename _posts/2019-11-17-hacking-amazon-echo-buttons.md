@@ -117,7 +117,9 @@ For what I needed everything works great. The front end can reset the buzzer sta
 
 ## Find out more
 
-While we didn't end up using the buzzers in the end, I didn't want this little project to go to waste. I've put both the server and client code up on Github under the name
+While we didn't end up using the buzzers in the end, I didn't want this little project to go to waste. I've put both the [server][on-the-buzzer-server] and [client][on-the-buzzer-client] code up on GitHub under the name "On The Buzzer".
+
+If - by some miracle - you have your own Echo Buttons already, all that needs to change is the address in the server code and you're good to go!
 
 [Echo buttons]:{{ site.baseurl }}/assets/2019-11-17-hacking-amazon-echo-buttons/echo-buttons.jpg
 [Button paired]:{{ site.baseurl }}/assets/2019-11-17-hacking-amazon-echo-buttons/button-paired.png
@@ -127,3 +129,5 @@ While we didn't end up using the buzzers in the end, I didn't want this little p
 [echo buttons teardown: no bluetooth low energy?]: https://medium.com/@decrocksam/amazon-echo-buttons-teardown-9f066a84f156
 [bluetooth-serial-port]: https://www.npmjs.com/package/bluetooth-serial-port
 [ws]: https://www.npmjs.com/package/ws
+[on-the-buzzer-client]: https://github.com/MattCrouch/on-the-buzzer-client
+[on-the-buzzer-server]: https://github.com/MattCrouch/on-the-buzzer-server
