@@ -30,7 +30,7 @@ To get started, grab a copy of the latest [Net Magazine][net magazine]. You can 
 
 [Generate Dynamic Charts with Victory]:{{ site.baseurl }}/assets/2020-02-18-generate-dynamic-charts-with-victory/generate-dynamic-charts-with-victory.jpg
 
-[net magazine]: https://www.myfavouritemagazines.co.uk/design/net-magazine-back-issues/net-january-2020-issue-327/
+[net magazine]: https://www.myfavouritemagazines.co.uk/design/net-magazine-back-issues/net-april-2020-issue-330/
 [d3]: https://d3js.org/
 [victory]: https://formidable.com/open-source/victory/
 [history of sumo]: https://projects.fivethirtyeight.com/sumo/
