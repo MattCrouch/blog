@@ -10,7 +10,7 @@ tags:
   - Chrome
 ---
 
-This week was the annual [Chrome Dev Summit][chrome dev summit]. While it was a little different this year due to COVID, it did mean that people like me who would otherwise miss out on tshe activities of the two-day event got to participate.
+This week was the annual [Chrome Dev Summit][chrome dev summit]. While it was a little different this year due to COVID, it did mean that people like me who would otherwise miss out on the activities of the two-day event got to participate.
 
 I can't not mention [CDS Adventure][cds adventure website] - a virtual conference hall full of everyone attending. You create your own avatar and hop around talking to other attendees and Google staff about all things Chrome. It's not the same as being there in person, sure, but a great alternative.
 
