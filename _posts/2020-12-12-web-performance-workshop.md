@@ -12,13 +12,13 @@ tags:
 
 This week was the annual [Chrome Dev Summit][chrome dev summit]. While it was a little different this year due to COVID, it did mean that people like me who would otherwise miss out on the activities of the two-day event got to participate.
 
-I can't not mention [CDS Adventure][cds adventure website] - a virtual conference hall full of everyone attending. You create your own avatar and hop around talking to other attendees and Google staff about all things Chrome. It's not the same as being there in person, sure, but a great alternative.
+I can't not mention [CDS Adventure][cds adventure website] - a virtual conference hall full of everyone attending. You create your own avatar and hop around talking to other attendees and Google staff about all things Chrome. It's not the same as being there in person but a great alternative.
 
 There's collectible hats, too. I'm sold.
 
 [![CDS Adventure][cds adventure]][cds adventure]
 
-There were lots of great talks about all sorts of web-based topics. Sure, there's quite a focus on the Chrome browser and the things it does well, but there is plenty of content applicable across the web. They're all up on [their YouTube channel][cds 2020 playlist] and I thoroughly recommend picking out the ones that interest you and giving them a watch.
+There were lots of great talks about all sorts of web-based topics. There's quite a focus on the Chrome browser and the things it does well, but there is plenty of content applicable across the web. They're all up on [their YouTube channel][cds 2020 playlist] and I thoroughly recommend picking out the ones that interest you and giving them a watch.
 
 One added bonus of the conference going remote is that the workshops they run every year are now held online. I was lucky enough to get a place on their Web Performance workshop. Spread over two days, the lovely [Tammy Averts][twitter - tameverts] and [Tim Kadlec][twitter - tkadlec] went over the basics of performance on the web, what to look out for and how to debug when things go wrong.
 
@@ -60,7 +60,7 @@ It's worth noting that it's unlikely this will be an issue for many sites. For e
 
 ### Cumulative Layout Shift (CLS)
 
-One of my pet peeves is when I'm reading a page and some ad has come through late or some carousel content has changed and all the text moves down the page. While trying to find that position again isn't exactly difficult, it's a few seconds where I'm not doing what I came to the site to do.
+One of my pet peeves is when I'm reading a page and an advert has loaded slowly or some carousel content has changed, which causes all the text to move down the page. It takes a few seconds to find my place again. That's time I'm not doing what I came to the site to do.
 
 [![Missile Warning System meme][missile warning system]][know your meme - hawaii missile false alarm]
 
@@ -82,11 +82,11 @@ WebPageTest operates on real-world devices and will give you realistic numbers t
 
 ## Keep an eye out
 
-The worst performance issues are the ones you don't know about until it's too late. By finding out where those problems are it's possible to form a plan of attack and build a site-wide approach to make sure they don't creep back in.
+The worst issues are the ones you don't know about until it's too late. By finding out where those problems are it's possible to form a plan of attack and build a site-wide approach to make sure they don't creep back in.
 
-Make sure checks are made after every release. It makes it easier to identify what might be causing these scores to worsen.
+These metrics should be checked after every release. It's then easier to identify what might be causing these scores to worsen.
 
-Finally, by having the site's performance as a set of metrics to track it makes it easier for those further away from the day-to-day code to see how a site's performing. By explaining the benefits a better score brings to a site, it's easier to get more people invested in how well the site's working.
+Finally, by having the site's performance as a small set of metrics to track it makes it easier for those further away from the day-to-day code to see how a site's performing. By explaining the benefits a better score brings to a site, it's easier to get more people invested in how well the site's working.
 
 Performance improvements require everyone to be on board. By taking small steps everyone can start benefitting.
 
